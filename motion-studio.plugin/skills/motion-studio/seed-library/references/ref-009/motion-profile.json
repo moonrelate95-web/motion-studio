@@ -1,0 +1,56 @@
+{
+  "id": "ref-009",
+  "name": "Glossy Metric Widget (Trend + Badge)",
+  "category": "data-visualization",
+  "tags": ["glossy-3d", "widget", "line-chart", "green", "percentage-badge", "trend"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat with no retrievable file path — analyzed from the rendered image; no source/preview copy could be stored on disk.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A glossy green widget showing '$34,333' with a translucent wavy line chart beneath it and a 'New Sales Last Period' caption; docked beside/below it, a bright lime panel shows '45%' with a 'Sales' pill badge.",
+  "styleSummary": "Glossy Metric Widget (Trend + Badge): same green-gloss family as ref-004, paired with a lighter companion panel isolating a percentage callout.",
+
+  "composition": {
+    "layout": "hero widget (figure + trend line + caption) beside/above a smaller lime companion panel",
+    "hierarchy": "hero figure > percentage badge > trend line > captions",
+    "depth": "two flat glossy panels, no additional layering",
+    "framing": "hero widget dominant, companion panel roughly a third of its size"
+  },
+  "typography": {
+    "characteristics": "rounded geometric sans throughout, near-black text on the lime panel for contrast",
+    "weightHierarchy": "800 hero figure and percentage / 500 caption",
+    "animation": "figure counts up, line draws, percentage counts up and its pill slides/fades in"
+  },
+  "color": {
+    "background": "linear-gradient(#6fe86f, #1f8a3f)",
+    "primary": "#ffffff",
+    "accent": "#a8f24a",
+    "notes": "green-family duotone: darker glossy green hero, brighter lime companion panel"
+  },
+
+  "motion": {
+    "primaryMotion": "hero figure counts up while the trend line draws left-to-right",
+    "secondaryMotion": "percentage badge counts up and its pill label fades/slides in from the side",
+    "camera": "static, soft scale-in on entrance",
+    "overshoot": "light spring pop on both panels' entrance",
+    "stagger": "hero panel settles first, companion panel follows",
+    "citedBlueprints": ["dataviz-countup"],
+    "citedRules": ["counting-dynamic-scale", "chart-scrub-readout", "svg-path-draw", "spring-pop-entrance"]
+  },
+  "timing": {
+    "entrance": "0.4-0.6s per panel",
+    "hold": "2-3s",
+    "exit": "0.3s",
+    "rhythm": "quick, confident"
+  },
+
+  "visualDensity": "medium",
+  "targetComponentDensity": [8, 13],
+  "bestUseCases": ["sales-dashboard", "statistics", "growth-metrics", "business", "saas", "trend-reveal"],
+  "compatibleCategories": ["saas", "finance", "product-demo"],
+  "incompatibleCategories": ["historical", "documentary"],
+
+  "createdAt": "2026-08-02T10:23:00.000Z"
+}

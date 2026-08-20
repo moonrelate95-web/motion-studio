@@ -1,0 +1,56 @@
+{
+  "id": "ref-007",
+  "name": "Branching Idea Tree",
+  "category": "infographics",
+  "tags": ["node-diagram", "branching-tree", "minimal", "dark", "mind-map"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat with no retrievable file path — analyzed from the rendered image; no source/preview copy could be stored on disk.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A black frame: a filled lavender 'Idea' node at top, two white curved connector lines branching down to two outlined nodes labeled 'Topic' and 'Unique Take', with a soft purple glow in the lower-left corner.",
+  "styleSummary": "Branching Idea Tree: extreme minimalism, one filled root node, curved connectors to outlined children, single soft purple ambient glow.",
+
+  "composition": {
+    "layout": "root centered top, two children evenly spaced below",
+    "hierarchy": "root node > connectors > child nodes",
+    "depth": "flat, glow is the only depth cue",
+    "framing": "small diagram in a large black field — mostly negative space"
+  },
+  "typography": {
+    "characteristics": "clean geometric sans, medium weight, short single-word/short-phrase labels",
+    "weightHierarchy": "600 uniform across all node labels",
+    "animation": "root pops first; children fade/rise in as their connector completes"
+  },
+  "color": {
+    "background": "#000000",
+    "primary": "#ffffff",
+    "accent": "#c9b8ff",
+    "notes": "single lavender accent reserved for the root node fill"
+  },
+
+  "motion": {
+    "primaryMotion": "connector lines draw outward from the root to each child",
+    "secondaryMotion": "child nodes fade+rise in as their connector line completes; ambient glow breathes slowly",
+    "camera": "static",
+    "overshoot": "light spring pop on the root node only",
+    "stagger": "children arrive together or with a very slight offset",
+    "citedBlueprints": ["grid-card-assemble"],
+    "citedRules": ["svg-path-draw", "spring-pop-entrance", "ambient-glow-bloom", "nudge-curve"]
+  },
+  "timing": {
+    "entrance": "0.3s root pop, 0.4-0.5s connector draw",
+    "hold": "2-3s",
+    "exit": "0.3s fade",
+    "rhythm": "unhurried, deliberate"
+  },
+
+  "visualDensity": "low",
+  "targetComponentDensity": [6, 10],
+  "bestUseCases": ["brainstorming", "content-planning", "diagram", "educational", "infographics", "decision-tree"],
+  "compatibleCategories": ["minimal", "kinetic-typography", "cinematic"],
+  "incompatibleCategories": ["glassmorphism", "bold-poster"],
+
+  "createdAt": "2026-08-02T10:21:00.000Z"
+}

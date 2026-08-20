@@ -1,0 +1,56 @@
+{
+  "id": "ref-001",
+  "name": "Content Strategy Wheel",
+  "category": "ui-animation",
+  "tags": ["wheel-selector", "gamified", "neon-purple", "content-strategy", "hud", "radial-menu"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat with no retrievable file path — analyzed from the rendered image; no source/preview copy could be stored on disk.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A radial wheel UI with numbered segments around the edge (partial labels visible: 1 Set the Scenario, 2 Relate to Viewer, 3 Social Proof, 4 ...). One trapezoid segment is lit bright violet with a large white '3' and 'SOCIAL PROOF' label; the rest sit dim. A small glowing lightbulb mark floats below the wheel's center.",
+  "styleSummary": "Content Strategy Wheel: hud/gamified. One segment lit with heavy neon glow against a dim ring and a near-black stage; instant single-focus read.",
+
+  "composition": {
+    "layout": "circular ring composition, active segment near top-center, idea mark on the vertical axis below it",
+    "hierarchy": "active segment (number + label) > idea mark > dim ring segments",
+    "depth": "flat, single plane, depth implied only by the glow bloom",
+    "framing": "wheel fills roughly the lower two-thirds of frame, generous dark headroom above"
+  },
+  "typography": {
+    "characteristics": "geometric sans, heavy weight on the number, tracked uppercase on the label",
+    "weightHierarchy": "800 number / 700 label / 600 dim segment labels",
+    "animation": "number and label likely scale-pop together as one unit when a segment activates"
+  },
+  "color": {
+    "background": "#0a0510",
+    "primary": "#b855ff",
+    "accent": "#b855ff",
+    "notes": "single violet neon accent; everything else is near-black or low-opacity violet"
+  },
+
+  "motion": {
+    "primaryMotion": "wheel rotates so the target segment arrives at the lit position, or the target segment pops from dim to lit in place",
+    "secondaryMotion": "idea mark breathes a slow ambient glow pulse",
+    "camera": "static, no camera move implied",
+    "overshoot": "moderate on the activation pop",
+    "stagger": "none within the active moment; if multiple picks shown in sequence, one full cycle between them",
+    "citedBlueprints": [],
+    "citedRules": ["orbit-3d-entry", "spring-pop-entrance", "ambient-glow-bloom"]
+  },
+  "timing": {
+    "entrance": "0.3-0.5s pop on activation",
+    "hold": "2-4s per pick",
+    "exit": "quick dim-out as the next pick activates",
+    "rhythm": "punchy single beats, not continuous motion"
+  },
+
+  "visualDensity": "medium",
+  "targetComponentDensity": [8, 14],
+  "bestUseCases": ["content-strategy", "gamification", "hooks", "social-proof", "listicle", "framework-reveal"],
+  "compatibleCategories": ["kinetic-typography", "hud", "technology"],
+  "incompatibleCategories": ["historical", "warm-editorial"],
+
+  "createdAt": "2026-08-02T10:15:00.000Z"
+}
