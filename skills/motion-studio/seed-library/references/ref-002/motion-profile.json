@@ -1,0 +1,56 @@
+{
+  "id": "ref-002",
+  "name": "Release Changelog Card",
+  "category": "saas",
+  "tags": ["changelog", "release-notes", "icon-grid", "gradient-dark", "badge", "product-update"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat with no retrievable file path — analyzed from the rendered image; no source/preview copy could be stored on disk.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A dark red-to-black gradient card: a small 'Release v1.65' pill badge, bold 'AI Emoji Suggestions' headline, and a row of five rounded-square icon tiles (robot, sparkle, crystal ball, rocket, atom) each glowing warm orange.",
+  "styleSummary": "Release Changelog Card: warm ember gradient, single orange accent, badge + headline + evenly staggered icon-tile row.",
+
+  "composition": {
+    "layout": "vertical stack, centered: badge, headline, icon row",
+    "hierarchy": "headline > icon row > badge",
+    "depth": "flat card, glow gives the tiles slight lift",
+    "framing": "generous margin around the whole stack, icon row is the widest element"
+  },
+  "typography": {
+    "characteristics": "geometric sans, confident weight",
+    "weightHierarchy": "800 headline / 700 badge, small",
+    "animation": "badge and headline likely fade+rise before the icon row arrives"
+  },
+  "color": {
+    "background": "linear-gradient(#3a0a0a, #160404)",
+    "primary": "#ffffff",
+    "accent": "#ff6b35",
+    "notes": "single warm accent; no secondary hue"
+  },
+
+  "motion": {
+    "primaryMotion": "icon tiles stagger-pop in left to right",
+    "secondaryMotion": "each tile's glow blooms in shortly after it settles",
+    "camera": "static",
+    "overshoot": "light spring overshoot on each tile",
+    "stagger": "even, ~2-3 frames between tiles",
+    "citedBlueprints": ["grid-card-assemble", "titlecard-reveal"],
+    "citedRules": ["spring-pop-entrance", "ambient-glow-bloom", "waterfall-entry"]
+  },
+  "timing": {
+    "entrance": "0.4-0.6s per tile, staggered",
+    "hold": "2-3s full hold",
+    "exit": "0.3s fade",
+    "rhythm": "brisk, celebratory"
+  },
+
+  "visualDensity": "medium",
+  "targetComponentDensity": [7, 12],
+  "bestUseCases": ["product-updates", "changelog", "feature-announcement", "saas", "app-update"],
+  "compatibleCategories": ["technology", "ai-interface", "ui-animation"],
+  "incompatibleCategories": ["historical", "nature-earth"],
+
+  "createdAt": "2026-08-02T10:16:00.000Z"
+}

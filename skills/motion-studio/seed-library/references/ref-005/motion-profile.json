@@ -1,0 +1,56 @@
+{
+  "id": "ref-005",
+  "name": "Neon Process Tree",
+  "category": "timeline",
+  "tags": ["neon-blue", "process-diagram", "numbered-steps", "pixel-icon", "tree-connector"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat with no retrievable file path — analyzed from the rendered image; no source/preview copy could be stored on disk.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A black frame with a bold '3-STEP STRATEGY' headline above a vertical line branching into three horizontal legs, each ending in a glowing-outline box labeled 'Step 01:' / 'Step 02:' / 'Step 03:' with a small pixel-style icon (magnifier, hand, gear).",
+  "styleSummary": "Neon Process Tree: black stage, single electric-blue neon accent, headline over a drawn trunk-and-branch connector ending in outlined step boxes.",
+
+  "composition": {
+    "layout": "headline top-center, symmetric branching tree below",
+    "hierarchy": "headline > step boxes > connector line",
+    "depth": "flat, glow implies the only depth",
+    "framing": "tree centered, even margins left/right"
+  },
+  "typography": {
+    "characteristics": "bold condensed uppercase headline, medium-weight tracked step labels",
+    "weightHierarchy": "800 headline / 600 step label",
+    "animation": "headline settles first, step labels fade in after their box arrives"
+  },
+  "color": {
+    "background": "#050810",
+    "primary": "#5ec8ff",
+    "accent": "#5ec8ff",
+    "notes": "single electric-blue neon accent on black"
+  },
+
+  "motion": {
+    "primaryMotion": "connector line draws downward and outward from the trunk to each branch",
+    "secondaryMotion": "step boxes scale-pop in sequence once their branch completes; icons fade in after the box settles",
+    "camera": "static",
+    "overshoot": "light overshoot on each box pop",
+    "stagger": "left-to-right or center-out across the three boxes",
+    "citedBlueprints": ["grid-card-assemble", "titlecard-reveal"],
+    "citedRules": ["svg-path-draw", "spring-pop-entrance", "ambient-glow-bloom", "waterfall-entry"]
+  },
+  "timing": {
+    "entrance": "0.5s headline, 0.6s connector draw, 0.3-0.4s per box",
+    "hold": "2-3s full hold",
+    "exit": "0.3s fade",
+    "rhythm": "measured, procedural, one beat per step"
+  },
+
+  "visualDensity": "medium-high",
+  "targetComponentDensity": [9, 15],
+  "bestUseCases": ["process-explainer", "strategy", "tutorial", "timeline", "educational", "framework"],
+  "compatibleCategories": ["technology", "ai-interface", "kinetic-typography"],
+  "incompatibleCategories": ["pastel-soft", "nature-earth"],
+
+  "createdAt": "2026-08-02T10:19:00.000Z"
+}

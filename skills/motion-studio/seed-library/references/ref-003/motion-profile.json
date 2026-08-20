@@ -1,0 +1,56 @@
+{
+  "id": "ref-003",
+  "name": "Fintech Balance Card",
+  "category": "finance",
+  "tags": ["fintech", "dashboard-card", "card-stack", "dark-ui", "balance", "payment-card"],
+  "sourceType": "image",
+  "sourceFile": null,
+  "sourceNote": "Pasted inline in chat (submitted twice, identical) with no retrievable file path — analyzed from the rendered image; deduplicated to a single library entry.",
+  "previewFile": null,
+  "designSpecFile": "frame.md",
+
+  "semanticDescription": "A dark rounded dashboard card: 'Bank Balance' label + green 'Active' pill, a large '$22,677.45' figure, and two stacked Visa-style payment cards (blue gradient front, lighter blue-violet gradient behind) peeking below.",
+  "styleSummary": "Fintech Balance Card: near-black card, one hero balance figure, green status pill, softly offset two-card payment stack.",
+
+  "composition": {
+    "layout": "vertical stack: header row (label + pill), hero figure, payment-card stack",
+    "hierarchy": "balance figure > payment-card stack > header row",
+    "depth": "card sits flat; the two payment cards imply shallow depth via their offset",
+    "framing": "centered card with generous internal padding"
+  },
+  "typography": {
+    "characteristics": "geometric sans, tabular numerals on the balance",
+    "weightHierarchy": "800 balance / 700 pill text / 500 label",
+    "animation": "balance likely count-up; pill and label fade in first"
+  },
+  "color": {
+    "background": "#121212",
+    "primary": "#ffffff",
+    "accent": "#22c55e",
+    "notes": "green reserved strictly for the active/positive status pill"
+  },
+
+  "motion": {
+    "primaryMotion": "balance figure counts up to its final value",
+    "secondaryMotion": "status pill fades in with a small pulse; payment cards slide up and settle with a slight stagger",
+    "camera": "static, maybe a very slight push on the whole card",
+    "overshoot": "light spring settle on the card and the payment-card stack",
+    "stagger": "front card settles slightly before the back card reveals behind it",
+    "citedBlueprints": ["dataviz-countup", "titlecard-reveal"],
+    "citedRules": ["counting-dynamic-scale", "spring-pop-entrance", "card-morph-anchor"]
+  },
+  "timing": {
+    "entrance": "0.5-0.7s card scale-in, ~0.8s count-up",
+    "hold": "2-3s",
+    "exit": "0.3s fade",
+    "rhythm": "calm, confident, not rushed"
+  },
+
+  "visualDensity": "medium",
+  "targetComponentDensity": [8, 13],
+  "bestUseCases": ["fintech", "banking", "dashboard", "statistics", "saas", "personal-finance"],
+  "compatibleCategories": ["saas", "data-visualization", "technology"],
+  "incompatibleCategories": ["pastel-soft", "historical"],
+
+  "createdAt": "2026-08-02T10:17:00.000Z"
+}
