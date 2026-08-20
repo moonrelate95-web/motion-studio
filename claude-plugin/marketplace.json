@@ -1,0 +1,16 @@
+{
+  "name": "MotionStudio",
+  "owner": {
+    "name": "Motion Studio"
+  },
+  "plugins": [
+    {
+      "name": "motion-studio",
+      "source": "./",
+      "description": "AI-powered motion graphics generator with a persistent, reusable motion-reference library. Turns a timestamped script into a rendered MP4 with professional, physics-based motion.",
+      "version": "0.2.1",
+      "category": "media",
+      "tags": ["video", "motion-graphics", "hyperframes", "animation", "ai-video"]
+    }
+  ]
+}

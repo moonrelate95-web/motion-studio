@@ -1,0 +1,18 @@
+{
+  "name": "motion-studio",
+  "version": "0.2.1",
+  "description": "AI-powered motion graphics generator. Analyzes and permanently stores a library of motion-design references, then turns a timestamped script into a fully rendered, professionally animated MP4 using AI-selected or user-selected visual styles.",
+  "author": {
+    "name": "Motion Studio"
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "motion-graphics",
+    "hyperframes",
+    "animation",
+    "ai-video",
+    "script-to-video",
+    "motion-design"
+  ]
+}
